@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ✅ FIXES EMOJI + TEXT ISSUE -->
+  <meta charset="UTF-8" />
+  
+  <!-- ✅ RESPONSIVE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Resume Parser</title>
+
+  <!-- ✅ THIS WAS MISSING (VERY IMPORTANT) -->
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1 class="main-title">📄 Resume Parser</h1>
+
+    <div class="upload-box">
+      <input type="file" id="fileInput" />
+      <button id="uploadBtn">Upload & Parse</button>
+    </div>
+
+    <div id="output"></div>
+
+  </div>
+
+  <!-- ✅ YOUR MAIN JS -->
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
